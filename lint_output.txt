@@ -1,0 +1,17 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+C:\RONNY\New folder\portfolio\src\app\page.tsx
+  1:8  warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\RONNY\New folder\portfolio\src\components\ContactSection.tsx
+  26:24  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\RONNY\New folder\portfolio\src\components\MouseFollower.tsx
+  3:21  warning  'useState' is defined but never used             @typescript-eslint/no-unused-vars
+  7:11  warning  'cursorSize' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 4 problems (1 error, 3 warnings)
+
